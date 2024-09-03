@@ -1,0 +1,40 @@
+
+body{
+  padding: 0;
+  margin: 0;
+  background:linear-gradient(45deg, #3795BD, #56C8D8);
+}
+
+.home-wrapper{
+  overflow-x: hidden;
+
+}
+.home-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  padding-inline: 2rem;
+  width: 100%;
+  gap: 2rem;
+  height: 110svh;
+  box-sizing: border-box; /* Ensures padding is included in height */
+  overflow-y: auto;
+}
+
+
+.image-container{
+  width: 100%;
+}
+
+.image{
+  width: 100%;
+}
+ @media (max-width: 760px) {
+.home-container{
+ padding: 1rem;/* Ensures padding is included in height */
+   grid-template-columns: repeat(2, 1fr);
+   row-gap: 0.5rem;
+}
+
+ }
