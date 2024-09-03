@@ -8,19 +8,19 @@ const Home = () => {
   return (
     <section className='home-wrapper'>
     <div className='home-container'>
-    
-     <div className='image-container'>
+   
      <img src={Image1} alt="image1" className='image' />
-     </div>
-     <div className='image-container'>
+   
+     
      <img src={Image2} alt="image1" className='image'/>
-     </div>
-     <div className='image-container'>
+    
+     
+    
      <img src={Image3} alt="image1" className='image'/>
-     </div>
-     <div className='image-container'>
+     
+     
      <img src={Image4} alt="image1" className='image'/>
-     </div>
+     
     </div>
     </section>
   )
